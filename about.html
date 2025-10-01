@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+	<link rel="stylesheet" href="styles.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>О нас - Название вашего сайта</title>
@@ -9,7 +10,7 @@
 </head>
 <body>
 	<header>
-		<a href="assets/favicon.ico">Логотип или название сайта</a>
+		<a href="index.html" class="logo">Логотип или название сайта</a>
 		<nav>
 			<ul>
 				<li><a href="index.html">Главная</a></li>
@@ -19,7 +20,7 @@
 		</nav>
 	</header>
 
-	<main>
+	<main class="container">
 		<!-- Простые "хлебные крошки" -->
 		<nav aria-label="Хлебные крошки">
 			<a href="index.html">Главная</a> →
@@ -28,20 +29,22 @@
 
 		<h1>О нашей компании</h1>
 
-		<section>
+		<section class="section">
 			<h2>Наша история</h2>
 			<p>Текст о том, как все начиналось...</p>
 		</section>
 
-		<section>
+		<section class="section">
 			<h2>Наша команда</h2>
 			<p>Текст о команде...</p>
 		</section>
 	</main>
 
 	<footer>
-		<p>&copy; 2025 Название вашего сайта. Все права защищены.</p>
-		<p>Телефон: +7 (123) 456-78-90</p>
+		<div class="container">
+			<p>&copy; 2025 Название вашего сайта. Все права защищены.</p>
+			<p>Телефон: +7 (123) 456-78-90</p>
+		</div>
 	</footer>
 </body>
 </html>
